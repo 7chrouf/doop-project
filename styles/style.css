@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 1px black solid;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #003466;
+}
+section {
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  padding: 100px;
+  color: white;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f05455;
+  height: 100px;
+  width: 60%;
+  padding: 10px;
+  margin: auto;
+  color: white;
+}
+h4 {
+  font-size: 1.75rem;
+}
+.cal-md-4 {
+  border: 1px rgba(139, 139, 139, 0.658) solid;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 10px;
+  /* margin:%; */
+}
+button {
+  color: orange;
+  /* width: 6%; */
+  border-radius: 10px;
+  padding: 15px;
+  text-decoration: none;
+}
+.row {
+  /* border: 1px red solid; */
+  background-color: white;
+  width: 60%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+}
+.product-body {
+  padding: 0 20px;
+  /* border: 1px yellow solid; */
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-plus,
+.fa-minus,
+.fa-heart,
+.fa-xmark {
+  cursor: pointer;
+}
+.toggleHeart {
+  color: red;
+}
